@@ -1,0 +1,20 @@
+{
+    "name": "itsimiro/integration-skeleton",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Itsimiro\\IntegrationSkeleton\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "itsimiro",
+            "email": "itsimiro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "psr/http-client": "^1.0",
+        "itsimiro/mi-structure": "^1.0"
+    }
+}
